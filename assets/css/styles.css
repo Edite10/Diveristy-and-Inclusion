@@ -1,0 +1,14 @@
+.header-font {
+    font-family: 'Tangerine', cursive;
+}
+.header-font {
+    font-family: 'Tangerine', cursive;
+    font-size: 4rem; /* Increase font size */
+}
+.navbar-nav .nav-link {
+    color: black !important;
+}
+
+a.navbar-brand {
+    color: black !important;
+}
