@@ -49,6 +49,9 @@ button.navbar-toggler {
     .paragraph-font {
         font-size: 1.2rem; /* Increase font size */
     }
+    .navbar {
+        display: none; /* Hide navbar */
+    }
 }
 
 /*Extra large screens and up*/
