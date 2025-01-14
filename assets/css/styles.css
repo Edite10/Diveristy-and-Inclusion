@@ -20,3 +20,55 @@ button.navbar-toggler {
 }
 
 /*Media Queries*/
+
+/*Small screens and up*/
+@media screen and (max-width: 576px) {
+    .header-font {
+        font-size: 3rem; /* Decrease font size */
+    }
+    .paragraph-font {
+        font-size: 0.8rem; /* Decrease font size */
+    }
+    
+}
+
+/**Medium screens and up**/
+@media screen and (max-width: 768px) {
+    .header-font {
+        font-size: 2rem; /* Decrease font size */
+    }
+    .paragraph-font {
+        font-size: 0.8rem; /* Decrease font size */
+    }
+    
+}
+/*Large screens and up*/
+@media screen and (min-width: 992px) {
+    .header-font {
+        font-size: 5rem; /* Increase font size */
+    }
+    .paragraph-font {
+        font-size: 1.2rem; /* Increase font size */
+    }
+}
+    
+/*Extra large screens and up*/
+@media screen and (min-width: 1200px) {
+    .header-font {
+        font-size: 6rem; /* Increase font size */
+    }
+    .paragraph-font {
+        font-size: 1.5rem; /* Increase font size */
+    }
+    
+}
+
+/*xxl device (large desktops, 1400px and up*/
+@media screen and (min-width: 1400px) {
+    .header-font {
+        font-size: 7rem; /* Increase font size */
+    }
+    .paragraph-font {
+        font-size: 1.8rem; /* Increase font size */
+    }
+}
