@@ -16,28 +16,6 @@ button.navbar-toggler {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
     
 }
-
-/* CSS for navbar */
-#navbarNav{
-    background-color: lightyellow;
-    overflow: hidden;
-    position: sticky;
-    top: 0;
-  }
-  /* CSS for navbarNav Anchor Tag i.e. Links  */
-  #navbarNav a {
-    color: white;
-    text-align: center;
-    padding: 14px;
-    float: left;
-    display: block;
-    text-decoration: none;
-
-  }
-  /*Page coontent*/
-  .content{
-    padding: 16px;
-  }
  
 /*General styles*/
 .paragraph-font {
@@ -192,6 +170,10 @@ h3 {
     }
     .navbar-brand {
         font-size: 2.5rem; /* Adjust font size for extra large screens */
+    }
+    /* Hide navbar on large screens */
+    .navbar {
+        display: none;
     }
 }
 
