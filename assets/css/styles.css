@@ -22,6 +22,10 @@ button.navbar-toggler {
     font-size: 1rem; /* Ensure consistent font size for paragraphs */
 }
 
+body {
+    background-color: #ffffe0; /* Change background color to light yellow */
+}
+
 h6 {
     margin-top: 20px; /* Add margin to lower it from the header */
 }
@@ -33,7 +37,7 @@ h6 {
 }
 
 h3 {
-    font-family: Georgia, 'Times New Roman', Times, serif5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Footer Carousel */
@@ -78,6 +82,9 @@ h3 {
     .navbar-brand {
         font-size: 1.5rem; /* Adjust font size for small screens */
     }
+    .navbar-toggler {
+        margin-left: 10px; /* Move hamburger next to navbar-brand */
+    }
 }
 
 /*Medium screens and up*/
@@ -96,13 +103,17 @@ h3 {
         display: none; /* Hide h1 in header */
     }
     .navbar-brand {
-        font-size: 1.75rem; /* Adjust font size for medium screens */
+        font-size: 2rem; /* Adjust font size for medium screens */
+    }
+    .navbar-toggler {
+        margin-left: 10px; /* Move hamburger next to navbar-brand */
     }
 }
 
 @media screen and (max-width: 991px) {
     .header-font {
         font-size: 4rem; /* Ensure consistent font size */
+    
     }
     .paragraph-font {
         font-size: 1rem; /* Ensure consistent font size */
@@ -111,14 +122,18 @@ h3 {
         font-size: 0.8rem; /* Decrease font size */
         padding: 12px; /* Adjust padding */
     }
+    
+    .navbar-brand {
+        font-size: 3rem; /* Adjust font size for large screens */
+
+    }
+    .navbar-toggler {
+        margin-left: 10px; /* Move hamburger next to navbar-brand */
+    }
     .header-bg h1 {
         display: none; /* Hide h1 in header */
     }
-    .navbar-brand {
-        font-size: 2rem; /* Adjust font size for large screens */
-    }
 }
-
 
 /*Large screens and up*/
 @media screen and (min-width: 992px) {
@@ -130,6 +145,7 @@ h3 {
     }
     .navbar {
         display: none; /* Hide navbar */
+        height: 80px; /* Set navbar height */
     }
     .footer-bg .card-body {
         font-size: 0.9rem; /* Decrease font size */
