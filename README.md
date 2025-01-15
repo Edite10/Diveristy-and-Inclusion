@@ -117,6 +117,6 @@ I used AI to assist in retagging of common code text and for the generation of t
    - No errors found using W3C CSS validator
 3. Accessibility
    - WAVE WebAIM accessibility evaluation
-   - Lighthouse accessibility score: 100
+   - Lighthouse accessibility score: 98
 
 [Back to Contents](#contents)
