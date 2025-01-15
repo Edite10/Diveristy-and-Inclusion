@@ -40,10 +40,16 @@ h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#headingOne {
+#headingOne,
+#headingThree,
+#headingFive,
+#headingSeven {
     background-color: #FFB448; 
 }
-#headingTwo {
+#headingTwo,
+#headingFour,
+#headingSix,
+#headingEight {
     background-color: #FAC898; 
 }
 
@@ -115,7 +121,7 @@ h3 {
     .navbar-toggler {
         margin-left: 10px; /* Move hamburger next to navbar-brand */
     }
-}
+} 
 
 @media screen and (max-width: 991px) {
     .header-font {
