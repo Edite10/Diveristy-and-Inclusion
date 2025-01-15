@@ -15,117 +15,29 @@ button.navbar-toggler {
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
 }
-/* Video Section */
-.video-section {
-    padding: 4rem 2rem;
-    background: var(--light-bg);
-}
 
-.video-container {
-    max-width: 1000px;
-    margin: 0 auto;
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-    height: 0;
-    overflow: hidden;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-}
-
-body.dark-theme .video-section {
-    background: var(--dark-bg);
-}
-
-
-.video-facade {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: lightgrey; /* Change background color to light grey */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-
-.play-button {
-    width: 100px;
-    height: 100px;
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: transform 0.3s ease;
-}
-
-.play-icon {
-    font-size: 2rem;
-    color: var(--primary-color);
-    margin-left: 5px;
-}
-
-.video-title {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    color: rgb(24, 23, 23);
-    font-size: 1.2rem;
-}
-
-.video-facade:hover .play-button {
-    transform: scale(1.1);
-}
-
-.video-facade:focus-visible {
-    outline: 3px solid var(--secondary-color);
-    outline-offset: 2px;
-}
-
-/* ...existing code... */
-
-@media (max-width: 768px) {
-    .video-section {
-        padding: 2rem 1rem;
-    }
-}
-
-/*General styles*/
-.paragraph-font {
-    font-family: 'Arial', sans-serif; /* Ensure consistent font for paragraphs */
-    font-size: 1rem; /* Ensure consistent font size for paragraphs */
+/* Above-the-fold content */
+.header-bg {
+    background-image: url('assets/images/headerim.webp');
+    background-size: cover;
+    background-position: center;
 }
 .header-font {
     font-family: 'Tangerine', cursive;
     font-size: 4rem; /* Increase font size */
 }
-
 body {
     background-color: #ffffe0; /* Change background color to light yellow */
 }
-
 h6 {
     margin-top: 20px; /* Add margin to lower it from the header */
 }
-
-/* Section Buttons */
-.btn-link {
-    color: black !important; /* Change button color to black */
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.btn-link {
+    color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -141,19 +53,74 @@ h3 {
 #headingEight {
     background-color: #FAC898; 
 }
-
-/* Footer Carousel */
-.footer-bg h4 {
-    font-family: 'Sofia', cursive; /* Change font to Sofia */
-    color:black
+/* Video Section */
+.video-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.video-facade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: lightgrey; /* Change background color to light grey */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.play-button {
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+.play-icon {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-left: 5px;
+}
+.video-title {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: rgb(24, 23, 23);
+    font-size: 1.2rem;
+}
+.video-facade:hover .play-button {
+    transform: scale(1.1);
+}
+.video-facade:focus-visible {
+    outline: 3px solid var(--secondary-color);
+    outline-offset: 2px;
 }
 
+/* Footer Carousel */
+.footer-bg {
+    background-image: url('assets/images/headerim.webp');
+    background-size: cover;
+    background-position: center;
+}
+.footer-bg h4 {
+    font-family: 'Sofia', cursive; /* Change font to Sofia */
+    color: black;
+}
 .footer-bg .card {
     margin: 10px; /* Add margin for better spacing */
     border: none; /* Remove border */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
 }
-
 .footer-bg .card-body {
     color: black;
     text-align: center;
@@ -164,14 +131,12 @@ h3 {
     font-family: 'Trirong', serif; /* Change font to Trirong */
 }
 
-/*Media Queries*/
-
-/*Small screens and up*/
+/* Media Queries */
 @media screen and (max-width: 576px) {
     .header-font {
         font-size: 3rem; /* Decrease font size */
     }
-    .paragraph-font {
+    h6 {
         font-size: 0.8rem; /* Decrease font size */
     }
     .footer-bg .card-body {
@@ -188,13 +153,11 @@ h3 {
         margin-left: 10px; /* Move hamburger next to navbar-brand */
     }
 }
-
-/*Medium screens and up*/
 @media screen and (max-width: 768px) {
     .header-font {
         font-size: 4rem; /* Ensure consistent font size */
     }
-    .paragraph-font {
+    h6 {
         font-size: 1rem; /* Ensure consistent font size */
     }
     .footer-bg .card-body {
@@ -210,24 +173,20 @@ h3 {
     .navbar-toggler {
         margin-left: 10px; /* Move hamburger next to navbar-brand */
     }
-} 
-
+}
 @media screen and (max-width: 991px) {
     .header-font {
         font-size: 4rem; /* Ensure consistent font size */
-    
     }
-    .paragraph-font {
+    h6 {
         font-size: 1rem; /* Ensure consistent font size */
     }
     .footer-bg .card-body {
         font-size: 0.8rem; /* Decrease font size */
         padding: 12px; /* Adjust padding */
     }
-    
     .navbar-brand {
         font-size: 3rem; /* Adjust font size for large screens */
-
     }
     .navbar-toggler {
         margin-left: 10px; /* Move hamburger next to navbar-brand */
@@ -236,13 +195,11 @@ h3 {
         display: none; /* Hide h1 in header */
     }
 }
-
-/*Large screens and up*/
 @media screen and (min-width: 992px) {
     .header-font {
         font-size: 5rem; /* Increase font size */
     }
-    .paragraph-font {
+    h6 {
         font-size: 1.2rem; /* Increase font size */
     }
     .navbar {
@@ -255,18 +212,15 @@ h3 {
     .navbar-brand {
         font-size: 2.5rem; /* Adjust font size for extra large screens */
     }
-    /* Hide navbar on large screens */
     .navbar {
-        display: none;
+        display: none; /* Hide navbar on large screens */
     }
 }
-
-/*Extra large screens and up*/
 @media screen and (min-width: 1200px) {
     .header-font {
         font-size: 3.5rem; /* Decrease font size */
     }
-    .paragraph-font {
+    h6 {
         font-size: 1.2rem; /* Decrease font size */
     }
     .row {
@@ -285,13 +239,11 @@ h3 {
         font-size: 2.5rem; /* Adjust font size for extra large screens */
     }
 }
-
-/*xxl device (large desktops, 1400px and up*/
 @media screen and (min-width: 1400px) {
     .header-font {
         font-size: 4rem; /* Decrease font size */
     }
-    .paragraph-font {
+    h6 {
         font-size: 1.5rem; /* Decrease font size */
     }
     .footer-bg .card-body {
