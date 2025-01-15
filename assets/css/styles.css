@@ -40,6 +40,13 @@ h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+#headingOne {
+    background-color: rgb(73, 211, 73); /* Change background color to aqua */
+}
+#headingTwo {
+    background-color: rgb(177, 255, 177); /* Change background color to aqua */
+}
+
 /* Footer Carousel */
 .footer-bg h4 {
     font-family: 'Sofia', cursive; /* Change font to Sofia */
