@@ -41,10 +41,10 @@ h3 {
 }
 
 #headingOne {
-    background-color: rgb(73, 211, 73); /* Change background color to aqua */
+    background-color: #FFB448; 
 }
 #headingTwo {
-    background-color: rgb(177, 255, 177); /* Change background color to aqua */
+    background-color: #FAC898; 
 }
 
 /* Footer Carousel */
