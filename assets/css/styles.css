@@ -7,6 +7,9 @@
 }
 a.navbar-brand {
     color: black !important;
+    font-family: 'Tangerine', cursive;
+    font-size: 2rem;
+    text-align: center;
 }
 button.navbar-toggler {
     background-color: transparent !important;
@@ -17,6 +20,20 @@ button.navbar-toggler {
 .paragraph-font {
     font-family: 'Arial', sans-serif; /* Ensure consistent font for paragraphs */
     font-size: 1rem; /* Ensure consistent font size for paragraphs */
+}
+
+h6 {
+    margin-top: 20px; /* Add margin to lower it from the header */
+}
+
+/* Section Buttons */
+.btn-link {
+    color: black !important; /* Change button color to black */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif5;
 }
 
 /* Footer Carousel */
@@ -55,6 +72,12 @@ button.navbar-toggler {
         font-size: 0.7rem; /* Decrease font size */
         padding: 10px; /* Adjust padding */
     }
+    .header-bg h1 {
+        display: none; /* Hide h1 in header */
+    }
+    .navbar-brand {
+        font-size: 1.5rem; /* Adjust font size for small screens */
+    }
 }
 
 /*Medium screens and up*/
@@ -69,7 +92,33 @@ button.navbar-toggler {
         font-size: 0.8rem; /* Decrease font size */
         padding: 12px; /* Adjust padding */
     }
+    .header-bg h1 {
+        display: none; /* Hide h1 in header */
+    }
+    .navbar-brand {
+        font-size: 1.75rem; /* Adjust font size for medium screens */
+    }
 }
+
+@media screen and (max-width: 991px) {
+    .header-font {
+        font-size: 4rem; /* Ensure consistent font size */
+    }
+    .paragraph-font {
+        font-size: 1rem; /* Ensure consistent font size */
+    }
+    .footer-bg .card-body {
+        font-size: 0.8rem; /* Decrease font size */
+        padding: 12px; /* Adjust padding */
+    }
+    .header-bg h1 {
+        display: none; /* Hide h1 in header */
+    }
+    .navbar-brand {
+        font-size: 2rem; /* Adjust font size for large screens */
+    }
+}
+
 
 /*Large screens and up*/
 @media screen and (min-width: 992px) {
@@ -85,6 +134,9 @@ button.navbar-toggler {
     .footer-bg .card-body {
         font-size: 0.9rem; /* Decrease font size */
         padding: 15px; /* Adjust padding */
+    }
+    .navbar-brand {
+        font-size: 2.5rem; /* Adjust font size for extra large screens */
     }
 }
 
@@ -108,6 +160,9 @@ button.navbar-toggler {
         font-size: 0.9rem; /* Decrease font size */
         padding: 15px; /* Adjust padding */
     }
+    .navbar-brand {
+        font-size: 2.5rem; /* Adjust font size for extra large screens */
+    }
 }
 
 /*xxl device (large desktops, 1400px and up*/
@@ -121,6 +176,9 @@ button.navbar-toggler {
     .footer-bg .card-body {
         font-size: 1rem; /* Decrease font size */
         padding: 18px; /* Adjust padding */
+    }
+    .navbar-brand {
+        font-size: 3rem; /* Adjust font size for xxl screens */
     }
 }
 
