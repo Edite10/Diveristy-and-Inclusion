@@ -14,9 +14,93 @@ button.navbar-toggler {
 }
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
-    
 }
- 
+/* Video Section */
+.video-section {
+    padding: 4rem 2rem;
+    background: var(--light-bg);
+}
+
+.video-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+body.dark-theme .video-section {
+    background: var(--dark-bg);
+}
+
+
+.video-facade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: lightgrey; /* Change background color to light grey */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.play-button {
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.play-icon {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-left: 5px;
+}
+
+.video-title {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: rgb(24, 23, 23);
+    font-size: 1.2rem;
+}
+
+.video-facade:hover .play-button {
+    transform: scale(1.1);
+}
+
+.video-facade:focus-visible {
+    outline: 3px solid var(--secondary-color);
+    outline-offset: 2px;
+}
+
+/* ...existing code... */
+
+@media (max-width: 768px) {
+    .video-section {
+        padding: 2rem 1rem;
+    }
+}
+
 /*General styles*/
 .paragraph-font {
     font-family: 'Arial', sans-serif; /* Ensure consistent font for paragraphs */
