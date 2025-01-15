@@ -1,9 +1,7 @@
-.header-font {
-    font-family: 'Tangerine', cursive;
-    font-size: 4rem; /* Increase font size */
-}
+/*Naviagtion*/
 .navbar-nav .nav-link {
     color: black !important;
+    background-color: lightyellow;
 }
 a.navbar-brand {
     color: black !important;
@@ -16,10 +14,39 @@ button.navbar-toggler {
 }
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+    
 }
+
+/* CSS for navbar */
+#navbarNav{
+    background-color: lightyellow;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+  }
+  /* CSS for navbarNav Anchor Tag i.e. Links  */
+  #navbarNav a {
+    color: white;
+    text-align: center;
+    padding: 14px;
+    float: left;
+    display: block;
+    text-decoration: none;
+
+  }
+  /*Page coontent*/
+  .content{
+    padding: 16px;
+  }
+ 
+/*General styles*/
 .paragraph-font {
     font-family: 'Arial', sans-serif; /* Ensure consistent font for paragraphs */
     font-size: 1rem; /* Ensure consistent font size for paragraphs */
+}
+.header-font {
+    font-family: 'Tangerine', cursive;
+    font-size: 4rem; /* Increase font size */
 }
 
 body {
@@ -157,7 +184,6 @@ h3 {
         font-size: 1.2rem; /* Increase font size */
     }
     .navbar {
-        display: none; /* Hide navbar */
         height: 80px; /* Set navbar height */
     }
     .footer-bg .card-body {
