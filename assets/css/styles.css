@@ -40,6 +40,10 @@ h3 {
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.btn-link:hover {
+    color: white; /* Change color on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
 
 #headingOne,
 #headingThree,
@@ -88,7 +92,7 @@ h3 {
 }
 .play-icon {
     font-size: 2rem;
-    color: var(--primary-color);
+    color: black;
     margin-left: 5px;
 }
 .video-title {
@@ -102,7 +106,7 @@ h3 {
     transform: scale(1.1);
 }
 .video-facade:focus-visible {
-    outline: 3px solid var(--secondary-color);
+    outline: 5px solid grey;
     outline-offset: 2px;
 }
 
@@ -129,6 +133,13 @@ h3 {
     font-size: 0.9rem; /* Decrease font size */
     border-radius: 8px; /* Add border radius */
     font-family: 'Trirong', serif; /* Change font to Trirong */
+}
+.footer-bg .card-body .card-text {
+    color: black; /* Change card button text color to black */
+}
+.footer-bg .card:hover {
+    transform: scale(1.05); /* Slightly enlarge card on hover */
+    transition: transform 0.3s ease; /* Smooth transition */
 }
 
 /* Media Queries */
