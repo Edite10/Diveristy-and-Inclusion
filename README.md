@@ -40,6 +40,10 @@ The Diversity & Inclusion Project aims to provide essential information about di
 ![Wireframe](assets/images/wireframe.jpg)
 [Back to Contents](#contents)
 
+![D IDes](https://github.com/user-attachments/assets/65321380-d54f-47fc-9bf0-4a87d503d7f2)
+![D Iphone](https://github.com/user-attachments/assets/f6c2f2cf-5661-4604-9b70-b8b17696960c)
+![D Itab](https://github.com/user-attachments/assets/f78bcf68-1a12-467c-aff2-701447f20a9a)
+
 ## Project Structure
 ```
 diversity-inclusion/
