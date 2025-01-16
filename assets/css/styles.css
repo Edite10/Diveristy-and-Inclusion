@@ -40,10 +40,6 @@ h3 {
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.btn-link:hover {
-    color: white; /* Change color on hover */
-    text-decoration: underline; /* Add underline on hover */
-}
 
 #headingOne,
 #headingThree,
@@ -102,9 +98,6 @@ h3 {
     color: rgb(24, 23, 23);
     font-size: 1.2rem;
 }
-.video-facade:hover .play-button {
-    transform: scale(1.1);
-}
 .video-facade:focus-visible {
     outline: 5px solid grey;
     outline-offset: 2px;
@@ -137,12 +130,8 @@ h3 {
 .footer-bg .card-body .card-text {
     color: black; /* Change card button text color to black */
 }
-.footer-bg .card:hover {
-    transform: scale(1.05); /* Slightly enlarge card on hover */
-    transition: transform 0.3s ease; /* Smooth transition */
-}
-
 /* Media Queries */
+
 @media screen and (max-width: 576px) {
     .header-font {
         font-size: 3rem; /* Decrease font size */
@@ -164,6 +153,7 @@ h3 {
         margin-left: 10px; /* Move hamburger next to navbar-brand */
     }
 }
+
 @media screen and (max-width: 768px) {
     .header-font {
         font-size: 4rem; /* Ensure consistent font size */
