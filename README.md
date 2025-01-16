@@ -99,7 +99,7 @@ I used AI to assist in retagging of common code text and for the generation of t
 ## How to Run / Deployment
 1. Clone the repository:
     ```sh
-    git clone https://edite10.github.io/Diveristy-and-Inclusion/
+    git clone https://github.com/edite10/Diversity-and-Inclusion.git
     ```
 2. Open `index.html` in your web browser to view the website.
 
